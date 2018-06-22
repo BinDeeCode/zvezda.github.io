@@ -10,8 +10,7 @@ header{
     height: 300px;
 }
 .main{
-    width: 100px;
-    height: 100px;
+    width: 925px;
     background-color: #ffff;
     margin: -50px auto;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
