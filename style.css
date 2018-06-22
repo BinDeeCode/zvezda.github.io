@@ -19,6 +19,10 @@ header{
 @media (max-width: 800px){
     .main{
     width: 100%;
+    margin: 0;
+    }
+    header{
+        display: none;
     }
 }
 .bg{
