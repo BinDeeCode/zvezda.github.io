@@ -10,9 +10,12 @@ header{
     height: 300px;
 }
 .main{
-    width: 925px;
+    width: 800px;
     background-color: #ffff;
-    margin: -50px auto;
+    margin: -80px auto;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     border-radius: 5px;
+}
+.bg{
+    width: 100%;
 }
