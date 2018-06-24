@@ -213,27 +213,61 @@ margin-top: 30px;
     .main{
         display: flex;
         justify-content: center;
-        padding: 80px;
-        padding-bottom: 80px;
-        padding-left: 50px;
+        padding: 0;
         margin: 0;
+        width: 100%;
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    .main_information{
+        padding: 10px;
+    }
+    .hotel_name{
+        font-size: 60pt;
+        margin-left: -10px;
+    }
+    .dignity{
+        font-size: 12px;
     }
     header{
         display: none;
     }
+   .contact_information .title{
+       padding-left: 15px;
+   }
+   .info_card{
+       font-size: 12px;
+   }
     .contacts{
         margin-top: 30px;
         display: flex;
         justify-content: center;
-        padding: 80px;
-        padding-bottom: 80px;
-        padding-left: 65px;
+        padding: 0;
+        width: 100%;
+        padding-top: 70px;
+        
     }
     .map_yandex{
         display: none;
     }
     .maker_wrapper{
         display: none;
+    }
+    #photos{
+        padding-top: 70px;
+        padding-bottom: 70px;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+    }
+    .photo_wrapper{
+        width:100%;
+        height: auto;
+    }
+    .photo_card{
+        width: 100%;
+        height: auto;
     }
     
 }
