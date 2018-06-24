@@ -34,15 +34,7 @@ header{
     padding-right: 0;
     padding-bottom: 0;
 }
-@media (max-width: 900px){
-    .main{
-    width: 100%;
-    margin: 0;
-    }
-    header{
-        display: none;
-    }
-}
+
 
 
 .title{
@@ -212,4 +204,36 @@ a{
 margin-top: 30px;
     display: flex;
     justify-content: center;
+}
+
+@media (max-width: 965px){
+    .right_bg{
+        display: none;
+    }
+    .main{
+        display: flex;
+        justify-content: center;
+        padding: 80px;
+        padding-bottom: 80px;
+        padding-left: 50px;
+        margin: 0;
+    }
+    header{
+        display: none;
+    }
+    .contacts{
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        padding: 80px;
+        padding-bottom: 80px;
+        padding-left: 65px;
+    }
+    .map_yandex{
+        display: none;
+    }
+    .maker_wrapper{
+        display: none;
+    }
+    
 }
