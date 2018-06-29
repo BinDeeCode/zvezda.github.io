@@ -271,3 +271,25 @@ margin-top: 30px;
     }
     
 }
+
+@media (max-width: 350px){
+    .button_wrapper{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+    }
+    .button_primary{
+        display: none;
+    }
+    .main_information{
+        padding: 30px;
+    }
+    .hotel_name{
+        font-size: 50pt;
+        margin-left: -10px;
+    }
+    .dignity{
+        font-size: 10px;
+    }
+}
